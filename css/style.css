@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fugaz One', cursive;
+    font-size: 15px;
+}
+
+a{
+    display: inline-block;
+}
+
+p{
+    color: black;
+}
+/* espacios en arriba abajo del menu */
+header{
+    background-color: black;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+/* navegacion */
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo{
+    width: 100px;
+
+}
+
+header .container a{
+    color:red;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.boton{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+.boton.boton-rojo{
+    color: blueviolet;
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#inicio{
+    position: relative;
+}
+
+#inicio img{
+    width: 100%;
+    display: block;
+}
+
+#inicio .bloque-inicio{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 400px;
+    text-align: center;
+    margin-left: -100px;
+}
+
+#inicio .bloque-inicio h1{
+    color: blue;
+    font-size: 35px;
+}
+
+#inicio .bloque-inicio p{
+    color:red;
+    font-size: 16px;
+}
+
+.barra-footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
